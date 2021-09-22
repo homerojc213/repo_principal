@@ -84,12 +84,10 @@ box-shadow: 1px 1px rgb(116, 150, 116);
     width: 240px;
     height: 350px; 
     display: flex;
+    margin-bottom: 10px;
 }
 
-.contenedordeimagen > img{
-    object-fit: cover;
-    width: 100%;
-}
+
 .breedcontainer{
     display: flex;
 
@@ -98,6 +96,28 @@ box-shadow: 1px 1px rgb(116, 150, 116);
 .breedcard{
 
     margin: 10px;
+    background-color: rgb(83, 80, 80);
+    box-shadow: 5px 10px 5px rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+.breedtitle{
+
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.contenedordeimagen:hover{
+    cursor:pointer;
+    transform: scale(1.02);
+}
+
+.contenedordeimagen > img{
+    object-fit: cover;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 
