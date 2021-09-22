@@ -16,6 +16,7 @@ ul {
 
     display:flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .logo{
@@ -24,7 +25,6 @@ height: 20px;
 }
 
 .mainbuton{
-
         background-color: lightgreen;
         color: white;
         border: 0px;
@@ -36,5 +36,5 @@ height: 20px;
 .mainbuton:hover{
     cursor:pointer; 
     box-shadow: 1px 1px green;
-    transform: scale(1,1);       
+    transform: scale(1.1);       
 }
