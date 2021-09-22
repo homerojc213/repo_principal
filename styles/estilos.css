@@ -80,3 +80,24 @@ box-shadow: 1px 1px rgb(116, 150, 116);
     outline: none;
     border: 0px;
 }
+.contenedordeimagen{
+    width: 240px;
+    height: 350px; 
+    display: flex;
+}
+
+.contenedordeimagen > img{
+    object-fit: cover;
+    width: 100%;
+}
+.breedcontainer{
+    display: flex;
+
+}
+
+.breedcard{
+
+    margin: 10px;
+}
+
+
