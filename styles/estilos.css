@@ -17,6 +17,15 @@ ul {
     display:flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(175, 175, 180);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px;
+}
+
+.navbar > li{
+
+    display: flex;
+    align-items: center;
 }
 
 .logo{
@@ -57,6 +66,9 @@ box-shadow: 1px 1px rgb(116, 150, 116);
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    width: 300 px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar:focus-within{
